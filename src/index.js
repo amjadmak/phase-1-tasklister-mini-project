@@ -8,12 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
         e.preventDefault()
         addTask()
         form.reset()
-       })  
-
+       }); 
+       
       });
-
-
-
+      
 const addTask = () => {
 
   let li = document.createElement('li') ;
